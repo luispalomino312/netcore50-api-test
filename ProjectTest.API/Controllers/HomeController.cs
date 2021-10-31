@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+ ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace ProjectTest.API.Controllers
@@ -18,7 +18,7 @@ namespace ProjectTest.API.Controllers
         public string Get()
         {
             _logger.LogInformation("Initial Home Get");
-            return "Net Core 5.0 Running ... 18092021-v1.0.1 JENKINS v1.0.1 AFORO255";
+            return "Net Core 5.0 Running ... 18092021-v1.0.1 JENKINS LUIS v1.0.1 AFORO255";
         }
     }
 }
